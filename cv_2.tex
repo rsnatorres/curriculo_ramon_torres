@@ -1,0 +1,248 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Graduate Curriculum Vitae
+% LaTeX Template
+% Version 1.2 (3/28/15)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Rensselaer Polytechnic Institute 
+% (http://www.rpi.edu/dept/arc/training/latex/resumes/)
+%
+% Modified by:
+% Daniel L Marks <xleafr@gmail.com> 3/28/2015
+%
+% Important note:
+% This template requires the res.cls file to be in the same directory as the
+% .tex file. The res.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%-------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%-------------------------------------------------------------------------------
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% You can have multiple style options the legal options ones are:
+%
+%   centered:	the name and address are centered at the top of the page 
+%				(default)
+%
+%   line:		the name is the left with a horizontal line then the address to
+%				the right
+%
+%   overlapped:	the section titles overlap the body text (default)
+%
+%   margin:		the section titles are to the left of the body text
+%		
+%   11pt:		use 11 point fonts instead of 10 point fonts
+%
+%   12pt:		use 12 point fonts instead of 10 point fonts
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[margin]{res}  
+
+% Default font is the helvetica postscript font
+\usepackage{helvet}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,    % Keep the box around the links
+    pdfborder={0 0 1},   % Border thickness
+    urlcolor=blue,       % Color for URL text
+    linkcolor=blue,      % Color for link text
+    filecolor=magenta,   % Color for file links
+    pdftitle={My Resume}, % PDF metadata
+    pdfauthor={Ramon da Silva Torres}  % PDF author metadata
+}
+\usepackage[normalem]{ulem}  % Load ulem package (normalem prevents affecting \emph)
+\newcommand{\ulhref}[2]{\href{#1}{\uline{#2}}} % Define a custom command
+
+
+% Increase text height
+\textheight=700pt
+
+\begin{document}
+
+%-------------------------------------------------------------------------------
+%	NAME AND ADDRESS SECTION
+%-------------------------------------------------------------------------------
+\name{Ramon da Silva Torres}
+
+\address{
+Contato: (31) 98806-9741 \\ 
+rsnatorres@gmail.com
+\\ Idade: 32 anos 
+\\ Residência: Rio de Janeiro/RJ
+}
+\address{
+\href{https://github.com/rsnatorres}{GitHub}\\ \href{https://www.linkedin.com/in/ramon-torres-5b1164119/}{Linkedin}\\
+\href{http://lattes.cnpq.br/4650341120288709}{Lattes}
+}
+
+%-------------------------------------------------------------------------------
+
+\begin{resume}
+
+%-------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%-------------------------------------------------------------------------------
+\section{FORMAÇÃO}
+\textbf{Universidade Federal de Minas Gerais (UFMG)}\\
+{\sl Doutorado em Ciências Econômicas}, 2021 - atualmente (qualificado)
+\\
+{\sl Mestrado em Ciências Econômicas}, 2019 - 2021
+\\
+{\sl Bacharel em Ciências Econômicas}, 2011 - 2015
+\\
+\textbf{Ibmec}\\
+{\sl MBA em Gestão de Projetos}, 2019 - 2020
+\\
+
+
+%-------------------------------------------------------------------------------
+
+%-------------------------------------------------------------------------------
+%	EXPERIENCE SECTION
+%-------------------------------------------------------------------------------
+\begin{format}
+\title{l}\employer{r}\\
+\dates{l}\location{r}\\
+\body\\
+\end{format}
+
+\section{EXPERIÊNCIA}
+
+\employer{DataViva}
+\location{Remoto}
+\dates{Nov/2022 - atualmente}
+\title{\textbf{Gestor de Dados e Líder Técnico}}
+\begin{position}
+Gestor do time de desenvolvimento (seis desenvolvedores e dois pesquisadores) da plataforma de visualização de dados \href{https://www.dataviva.info/pt/}{DataViva} e líder técnico dos projetos de ciência de dados. Entre os papeis de gestor destacam-se: i) a condução dos eventos de metodologia ágil do \textit{framework scrum} (\textit{dailies}, \textit{plannings}, \textit{sprint reviews}) junto a equipe e clientes; ii) a elaboração dos Planos de Desenvolvimento Individuais (PDI); iii) a elaboração de projetos para disputa de licitação; iv) a gestão de contratos (prazos e custos). Entre os papeis de líder técnico destacam-se: i) construção de algoritmos em \textit{Python} para tratamento de dados; ii) construção de modelos de \textit{machine learning}; iii) decisões e implementação em código da arquitetura do \textit{pipeline} de ingestão de dados.
+\end{position}
+
+\employer{Fundação Vanzolini}
+\location{Remoto}
+\dates{Set/2023 - Mar/2025}
+\title{\textbf{Orientador de MBA}}
+\begin{position}
+Orientação de Trabalhos de Conclusão de Curso dos MBA's de Data Science e Analytics para Operações e Gestão de Projetos da \href{https://poliusppro.com/}{POLI USP PRO}. 
+
+\end{position}
+
+
+\employer{Tavus LTDA}
+\location{Remoto}
+\dates{Jul/2021 - atualmente}
+\title{\textbf{Consultor de Projetos de Ciência de Dados}}
+\begin{position}
+Prestação de consultoria em serviços diversos na área de ciência de dados tais como: (i) captação de dados via \textit{webcrawler}; (ii) construção e manutenção de banco de dados; (iii) limpeza, transformação e análise de dados; (iv) construção de visualizações, \textit{dashboards} e relatórios; (v) construção de modelos de \textit{machine learning} (e inteligência artificial) baseados em análise de regressão e agrupamento. 
+Todos os trabalhos tem sido desenvolvidos através das linguagens \textit{Python}, SQL e R.
+\end{position}
+
+
+\employer{Fundação João Pinheiro}
+\location{Belo Horizonte/MG}
+\dates{Mar/2021 - Out/2021}
+\title{\textbf{Pesquisador}}
+\begin{position}
+Análise dos microdados do CENSO/IBGE (2000 e 2010) e de bases de dados do FGTS; Construção de Projeções Econômico-Financeiras; Construção de algoritmos em \textit{Python} para análise estatística; Elaboração de estudos setoriais. 
+\end{position}
+
+\employer{SEBRAE}
+\location{Belo Horizonte/MG}
+\dates{Set/2019 - Fev/2021}
+\title{\textbf{Consultor em Gestão da Inovação}}
+\begin{position}
+Atuação em consultorias em gestão da inovação para negócios  no Programa Agente Local de Inovação (ALI); Elaboração de estudo sobre a economia com base em dados primários e secundários (Censo Agropecuário/IBGE, Cempre/IBGE, RAIS, e Inep/MEC); Construção de Indicadores (KPI’s) para monitoramento dos resultados do negócio; Planejamento de pesquisas de mercado.
+\end{position}
+
+\employer{CEDEPLAR}
+\location{Belo Horizonte/MG}
+\dates{Jan/2017 - Set/2018}
+\title{\textbf{Pesquisador}}
+\begin{position}
+Orientação/Supervisão de dois bolsistas de graduação em pesquisa de campo; Levantamento, sistematização e tratamento de dados quantitativos e qualitativos; Análise de microdados (RAIS, ITBI-BH, CNAE, CENSO/IBGE) através de softwares estatísticos (Stata, SPSS) e linguagem de programação R; Construção e gestão de Banco de Dados (Access); Construção de visualizações e produção de relatórios.
+\end{position}
+
+\employer{FAPEMIG}
+\location{Belo Horizonte/MG}
+\dates{Fev/2017 - Mai/2018}
+\title{\textbf{Pesquisador}}
+\begin{position}
+Aplicação de algoritmos de ciência de dados (\textit{k-means}, \textit{random forests}, regressão linear) para fins de testes de conceito da Plataforma Lemonade.
+\end{position}
+
+
+%-------------------------------------------------------------------------------
+%	TEACHING EXPERIENCE
+%-------------------------------------------------------------------------------
+
+\section{EXPERIÊNCIA DOCENTE}
+
+\textbf{Disciplina  Python para Ciência de Dados} | CEDEPLAR  (2023/01, 2023/02, 2024/01) | 30h \\
+\textbf{Minicurso Python para Ciência de Dados} | CEDEPLAR (2022/02) | UFSJ (2023/02)  | 12h \\
+\textbf{Curso Dinâmica Imobiliária} | IPEAD (2022/01) | 30h \\
+
+%-------------------------------------------------------------------------------
+%	SKILLS SECTION
+%-------------------------------------------------------------------------------
+\section{HABILIDADES}
+
+\textbf{Linguagens de Programação}: Python, JavaScript, R, SQL, Bash, \LaTeX.
+\\
+\textbf{Tratamento de Dados}: Pandas, Geopandas, NumPy, Spacy (NLP), Spark.
+\\
+\textbf{Análise Estatística}: Statsmodels (Econometria), Scikit-learn, Scipy.
+\\
+\textbf{Visualização de Dados}: Matplotlib, Plotly, Seaborn, Ggplot.
+\\
+\textbf{Desenvolvimento Web}: HTML, CSS, React, Tailwind, Node, Express.
+\\
+\textbf{Ferramentas}: Git, Visual Studio, Jupyter Notebooks, R-Studio, MySQL, DBeaver, MongoDB, Postman.
+\\
+\textbf{Cloud}: AWS, Heroku.
+\\
+\textbf{Sistemas Operacionais}: Windows, Linux.
+\\
+\textbf{Econometria}: Modelos de Regressão Múltipla; Modelos de Regressão com variável dependente binária (LOGIT, PROBIT, ordinais, multinomiais); Séries Temporais (ARIMA, SARIMAX, VAR, \textit{Local Projections}).
+\\
+\textbf{Machine Learning}: Aplicação de modelos não supervisionados (k-\textit{means}, \textit{Negative Matrix Factorization}, \textit{Latent Dirichlet Allocation}); Aplicação de modelos supervisionados (\textit{XGBoost}, \textit{Random Forest}, Redes Neurais com TensorFlow/PyTorch).
+\\
+\textbf{Inteligência Artificial (IA)/\textit{Deep Learning}}: Aplicação e integração de modelos pré-treinados de IA/\textit{Deep Learning} \textit{open source} disponibilizados na plataforma \textit{Hugging Face}. Experiência com modelos de geração de texto e tradução (GPT, BART, T5); Modelos de \textit{embeddings} de palavras e sentenças (Word2Vec, FastText, BERT, Sentence-BERT);
+
+%-------------------------------------------------------------------------------
+%	PORTFÓLIO
+%-------------------------------------------------------------------------------
+\section{PORTFÓLIO PÚBLICO}
+
+\href{https://github.com/rsnatorres/phd_thesis}{\textbf{Mineração de \textit{tweets} para extração de índices de sentimento}}: Extração de 55 milhões de \textit{tweets} contendo palavras-chave que versem sobre temas econômicos. Emprego de técnicas de Processamento de Linguagem Natural (PLN) para extração de polaridade e agregação em índices de sentimento/incerteza econômicos. Utilização dos índices como insumo em modelos de previsão (VAR e \textit{Local Projections}).
+
+\href{https://github.com/rsnatorres/curso_python_dados}{\textbf{Curso de \textit{Python} para Ciência de Dados}}: Material utilizado nas aulas do curso. O curso é ofertado através da ferramenta Colab instanciada no próprio Drive dos alunos (requer uma conta @gmail.com). O curso cobre os seguintes tópicos: 1) Introdução; 2) \textit{Dataframes}; 3) Filtros e tabelas; 4) Visualização; 5) Transformações de dados; 6) \textit{Merges}; 7) Mapas; 8) Econometria; 9) Automatização de tarefas.
+
+
+%-------------------------------------------------------------------------------
+%	PUBLICATIONS SECTION
+%-------------------------------------------------------------------------------
+\section{PUBLICAÇÕES}
+
+\textbf{TORRES, Ramon; TONUCCI, João; ALMEIDA, Renan.} \textit{Financeirização do imobiliário no Brasil: uma análise dos Certificados de Recebíveis Imobiliários (2005-2020)}. Cadernos Metrópole, 2022. \href{https://www.scielo.br/j/cm/a/Vb9yvGf34vP9sthm5RXhbBy/?lang=pt}{Scielo}.
+
+
+\textbf{ALMEIDA, Renan P.; Patrício, Pedro A.; BRANDAO, M. B.; TORRES, Ramon.} \textit{Can economic development policy trigger gentrification?} Economy and Space, 2021. \href{https://journals.sagepub.com/doi/10.1177/0308518X211050076}{Sage Journals}.
+
+\textbf{ALMEIDA, Renan; BRANDÃO, Marcelo; TORRES, Ramon; PATRÍCIO, Pedro; AMARAL, Pedro.} \textit{An assessment of the impacts of large scale urban projects on land values}. Papers in Regional Science, 2020. \href{https://rsaiconnect.onlinelibrary.wiley.com/doi/10.1111/pirs.12572}{Wiley}.
+
+
+%-------------------------------------------------------------------------------
+%	LANGUAGES SECTION
+%-------------------------------------------------------------------------------
+\section{LINGUAS}
+\textbf{Inglês}: Avançado\\
+\textbf{Espanhol}: Básico
+
+%-------------------------------------------------------------------------------
+\end{resume}
+\end{document}
